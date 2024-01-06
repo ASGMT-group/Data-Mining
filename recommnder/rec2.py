@@ -57,4 +57,3 @@ top_recommendations = user_recommendations[:top_n]
 print(f"\nTop {top_n} recommendations for member {member_id} based on browsing history:")
 for item, score in top_recommendations:
     print(f"Item: {item}, Predicted Rating = {score}")
-    
